@@ -2,6 +2,7 @@
 body{
 	font-family: "Montserrat", serif;
 	background-color:#2E2B26;
+	margin:0
 }
 
 .master_container {
@@ -58,19 +59,19 @@ body{
 }
 
 .dropdown-item:hover .dropdown-content {
-   visibility:visible;
+	visibility:visible;
 	display: block;
 	height: inherit;
 	transition:all ease-in-out .5s;
 }
 
 .dropdown-content ul {
-   list-style: none;
-   padding: 0;
-   margin: 0;
+	list-style: none;
+	padding: 0;
+	margin: 0;
 	justify-content: center;
 	display: flex;
-   flex-direction: column;
+	flex-direction: column;
 }
 
 .dropdown-content a {
@@ -611,6 +612,19 @@ a{
 
 /* 									lOOPS START */
 
+.loop_title{
+	color:#FBC74C;
+	font-family:"DM Serif Display", serif;
+	margin-bottom: 40px;
+	margin-top:10px;
+	font-size: 30px;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
 .carousel{
 	position:relative;
 
@@ -620,10 +634,6 @@ a{
 	height:200px;
 	background:grey;
 	padding:1em;
-	font-family:'Quicksand',san-serif;
-	font-weight:bold;
-	font-size:2em;
-	color:#fff;
 	display:none;
 }
 
@@ -651,6 +661,12 @@ a{
 	cursor:pointer;
 }
 
+.loop_content{
+	color: #FDFBE0;
+	font-family:"DM Serif Display", serif;
+	font-size:15px;
+}
+
 .carousel__button--selected{
 	height:15px;	
 	width:15px;
@@ -665,5 +681,86 @@ a{
 	.navbar_buttons{
 	display: none;
 	}
+}
+
+
+
+/* 									lOOPS END */
+
+
+
+
+/* 									REALMS START*/
+.realms_maincontainer{
+	width:1000px;
+	display:flex;
+	justify-content: space-between;
 
 }
+
+.realms_sections{
+	display:flex;
+	flex-direction: column;
+	width:290px;
+}
+
+.realms_sectiontitle{
+	color:#FBC74C;
+	font-family:"DM Serif Display", serif;
+	margin-bottom: 20px;
+	margin-top:10px;
+	font-size: 22px;
+}
+
+.realms_section_content{
+	text-align: justify;
+	color:#FDFBE0
+}
+
+/* 									REALMS END */
+
+
+
+
+/* 									ENTRIES INNER START */
+.postmortem_maincontainer_adjusting{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.postmortem_maincontainer{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width:750px;
+	justify-content: space-between;
+
+}
+
+.entry_title{
+	text-transform: uppercase;
+	color:#FBC74C;
+	font-family:"DM Serif Display", serif;
+	font-size: 26px;
+	margin-bottom: 60px;
+}
+
+.postmortem_contents{
+	display:flex;
+	color: #FDFBE0;
+}
+
+.postmortem_content01{
+	background-color: #453736;
+	text-align: justify;
+	padding:30px;
+}
+
+.postmortem_content02{
+	text-align: justify;
+	margin-left:30px;
+}
+/* 									ENTRIES INNER END */
