@@ -1,3 +1,37 @@
+/* MOBILE HEADER THING START */
+.mobile_header_container{
+	background-color:#453736;
+	width:360px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right:10px;
+	padding-left:10px;
+	visibility: hidden;
+
+}
+
+.mobile_items{
+	display: flex;
+	justify-content: space-between;
+}
+
+.mobile_header_circlelogo{
+	width:18px;
+	display: flex;
+	align-items: center;
+}
+.mobile_header_logo{
+	width:50px;
+	display: flex;
+	align-items: center;
+}
+.mobile_sidebar{
+	width: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 /* MAIN DEFAULT CSS WORKS */
 body{
 	font-family: "Montserrat", serif;
@@ -15,7 +49,7 @@ body{
 	width:900px;
 	height:auto;
 	display:flex;
-	padding-top:70px;
+	padding-top:50px;
 }
 
 .title-header-image{
@@ -153,6 +187,9 @@ body{
 
 .celestialarchives_content{
 	padding-left: 50px;
+	color:#FDFBE0;
+	font-size:16px;
+	text-align: justify;
 }
 
 .celestialarchives_header{
@@ -167,11 +204,6 @@ body{
 	width:50px;
 	height:auto;
 	margin-left:20px;
-}
-
-.celestialarchives_content{
-	color:#FDFBE0;
-	font-size:16px;
 }
 
 .bottomleft_cornerborder_container img{
@@ -549,6 +581,7 @@ a{
 
 .player_excerpt_written{
 	color:#FDFBE0;
+	text-align: justify;
 }
 
 .redact{
