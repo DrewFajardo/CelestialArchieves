@@ -511,20 +511,14 @@ a{
 }
 
 .player_portrait img{
-	width:300px;
 	padding: 30px;
-}
-.player_portrait{
-	position: relative;
-}
-
-.player_splash{
-	position: relative; 
-    z-index: 0;
 }
 
 .player_border{
-    z-index: 1;
+	top: 0;
+	left: 0;
+	width:300px;
+
 }
 
 .player_details_content{
@@ -637,6 +631,8 @@ a{
 	-webkit-transition: all 0.2s ease-in;
 	transition: all 0.2s ease-in;
 }
+
+
 /* 									LOST ENTRIES END */
 
 
@@ -663,10 +659,18 @@ a{
 
 }
 
+.loop_entry_title{
+	text-transform: uppercase;
+	color:#FBC74C;
+	font-family:"DM Serif Display", serif;
+	font-size: 26px;
+	margin: 0 0 30px;
+}
+
 .carousel__item{
-	height:200px;
-	background:grey;
-	padding:1em;
+	width:900px;
+	background-color: #453736;
+	padding:30px 30px 70px;
 	display:none;
 }
 
@@ -676,12 +680,12 @@ a{
 
 .carousel__nav{
 	width:100%;
-	padding:20px 0;
+	padding:0 20px 0 20px;
 	position: absolute;
 	bottom :0;
 	left:0;
 	text-align: center;
-	/* background:red; */
+	margin-bottom: 15px;
 }
 
 .carousel__button{
@@ -696,14 +700,14 @@ a{
 
 .loop_content{
 	color: #FDFBE0;
-	font-family:"DM Serif Display", serif;
+	font-family: "Montserrat", serif;
 	font-size:15px;
 }
 
 .carousel__button--selected{
 	height:15px;	
 	width:15px;
-	background:rgba(255,255,255,.5)
+	background:rgba(255,255,255,.5);
 }
 
 @media only screen and (max-width: 360px) {
@@ -784,16 +788,24 @@ a{
 .postmortem_contents{
 	display:flex;
 	color: #FDFBE0;
+	max-width: 900px;;
 }
 
 .postmortem_content01{
 	background-color: #453736;
 	text-align: justify;
 	padding:30px;
+	
 }
 
 .postmortem_content02{
 	text-align: justify;
 	margin-left:30px;
+	width:700px;
 }
+
+.postmort_image{
+	width:350px
+}
+
 /* 									ENTRIES INNER END */
